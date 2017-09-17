@@ -1,8 +1,9 @@
 # Machine Setup
 **Version: 1.0**
 
-This powershell script will simplify a pc installation by installing chocolatey + packages, NodeJs installation + global installations and executes other commands.
-It has a base configuration file `config.base.json` and it can extended/overwritten by a profile configuration example: `config.home.json`.
+Powershell script which simplifies PC installation which primarily target devs but everyone can use it. Installs apps via chocolatey, nodejs and executes other specific commands.
+
+It has a base configuration file `config.base.json` which it can extended/overwritten by a profile configuration `config.home.json`.
 
 ## Prerequisites
 
