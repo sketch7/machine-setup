@@ -1,0 +1,43 @@
+{
+	"name": "test",
+	"setPSGalleryAsTrusted": false,
+	"restartRequired": false,
+	"chocolatey": {
+		"install": false,
+		"ignore": false,
+		"restartRequired": false,
+		"packages": [
+			"asd",
+			"ewqzsad"
+		],
+		"skipPackages": [
+			"xdsDocker"
+		]
+	},
+	"NodeJs": {
+		"install": false,
+		"setGlobalSettings": false,
+		"ignore": false,
+		"packages": [
+			"gulp",
+			"gulp-cli",
+			"aurelia-cli"
+		]
+	},
+	"otherCommands": {
+		"ignore": false,
+		"preCommands": [],
+		"skipPreCommands": [
+			"docker-install"
+		],
+		"postCommands": [
+			{
+				"npm-pull": "echo 'home npm pull'"
+			}
+		],
+		"skipPostCommands": [
+			"npm-install",
+			"npm-rebuild"
+		]
+	}
+}

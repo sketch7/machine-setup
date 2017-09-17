@@ -1,0 +1,16 @@
+{
+	"name": "home",
+	"chocolatey": {
+		"ignore": false,
+		"packages": [
+			"dropbox",
+			"vlc"
+		]
+	},
+	"NodeJs": {
+		"ignore": false
+	},
+	"otherCommands": {
+		"ignore": false
+	}
+}

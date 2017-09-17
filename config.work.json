@@ -1,0 +1,12 @@
+{
+	"name": "work",
+	"chocolatey": {
+		"ignore": false
+	},
+	"NodeJs": {
+		"ignore": false
+	},
+	"otherCommands": {
+		"ignore": false
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"setPSGalleryAsTrusted": true,
+	"restartRequired": true,
+	"chocolatey": {
+		"ignore": false,
+		"install": true,
+		"prefix": "install -y",
+		"commandName": "choco",
+		"restartRequired": true,
+		"packages": [
+			"git",
+			"yarn",
+			"notepadplusplus",
+			"visualstudiocode",
+			"python2",
+			"gitkraken",
+			"cmder",
+			"autohotkey",
+			"adobereader",
+			"googlechrome",
+			"spotify",
+			"everything",
+			"lockhunter",
+			"slack",
+			"winrar",
+			"linkshellextension"
+		],
+		"skipPackages": []
+	},
+	"NodeJs": {
+		"ignore": false,
+		"install": true,
+		"setGlobalSettings": true,
+		"prefix": "install -g",
+		"commandName": "npm",
+		"packages": [
+			"npm-check-updates",
+			"tslint",
+			"typescript",
+			"rimraf",
+			"copy",
+			"gulp",
+			"gulp-cli",
+			"aurelia-cli"
+		],
+		"skipPackages": []
+	},
+	"otherCommands": {
+		"ignore": false,
+		"install": true,
+		"preCommands": [
+			{
+				"dotnet-install": "choco install dotnet4.6 -y"
+			}
+		],
+		"skipPreCommands": [],
+		"postCommands": [],
+		"skipPostCommands": []
+	}
+}

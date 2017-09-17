@@ -1,0 +1,48 @@
+{
+	"setPSGalleryAsTrusted": false,
+	"restartRequired": false,
+	"chocolatey": {
+		"install": true,
+		"restartRequired": false,
+		"prefix": "install -y",
+		"commandName": "choco",
+		"packages": [
+			"asd",
+			"xdsDocker",
+			"xyz"
+		]
+	},
+	"NodeJs": {
+		"install": false,
+		"setGlobalSettings": true,
+		"ignore": false,
+		"prefix": "install -g",
+		"commandName": "npm",
+		"packages": [
+			"npm-check-updates"
+		]
+	},
+	"otherCommands": {
+		"ignore": true,
+		"install": true,
+		"preCommands": [
+			{
+				"dotnet-install": "echo 'choco install xzydotnet'"
+			},
+			{
+				"docker-install": "echo 'choco install xztdocker'"
+			}
+		],
+		"postCommands": [
+			{
+				"npm-install": "echo 'global npm i'"
+			},
+			{
+				"npm-rebuild": "echo 'gulp rebuild --rel'"
+			},
+			{
+				"npm-link": "echo 'global npm link'"
+			}
+		]
+	}
+}
