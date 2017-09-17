@@ -5,16 +5,24 @@ Powershell script which simplifies PC installation which primarily target devs b
 
 It has a base configuration file `config.base.json` which it can extended/overwritten by a profile configuration `config.home.json`.
 
-## Prerequisites
+## Getting Started
 
-1. Run `pre-requisites.ps1`
+#### Cloning Repo
+Generally you should clone repo before formatting or you can [download as zip file](https://github.com/sketch7/machine-setup/archive/master.zip).
+
+- Run `git clone https://github.com/sketch7/machine-setup.git`
+
+### Prerequisites
+
+1. Powershell 5.0+ 
+2. Run `pre-requisites.ps1`
     * If you have powershell issues run this command in PS as Administrator: `Set-ExecutionPolicy RemoteSigned`.
-2. Update `config.base.json`
-3. Create/Update any profile configuration. example: `config.home.json`.
+3. Update `config.base.json`
+4. Create/Update any profile configuration. example: `config.home.json`.
     * At least one profile is required!
     * I've provided my configurations which I've used for my home/work pc installations.
 
-## Getting Started
+## Start Installation
 
 1. Make Sure you are running powershell as `Administrator`.
 2. Right click on `machine-setup.ps1` and select `Run With Powershell`.
