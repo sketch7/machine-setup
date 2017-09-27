@@ -3,7 +3,7 @@
 
 Powershell script which simplifies PC installation which primarily target devs but everyone can use it. Installs apps via chocolatey, nodejs and executes other specific commands.
 
-It has a base configuration file `config.base.json` which it can extended/overwritten by a profile configuration `config.home.json`.
+It has a base configuration file `config.base.json` which can be extended/overwritten by a profile configuration `config.home.json`.
 
 ## Getting Started
 
