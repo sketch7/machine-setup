@@ -1,5 +1,5 @@
 # Machine Setup
-**Version: 1.0**
+**Version: 1.1**
 
 Powershell script which simplifies PC installation which primarily target devs but everyone can use it. Installs apps via chocolatey, nodejs and executes other specific commands.
 

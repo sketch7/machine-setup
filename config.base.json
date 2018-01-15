@@ -9,7 +9,6 @@
 		"restartRequired": true,
 		"packages": [
 			"git",
-			"yarn",
 			"notepadplusplus",
 			"visualstudiocode",
 			"python2",
@@ -36,6 +35,7 @@
 		"packages": [
 			"npm-check-updates",
 			"tslint",
+			"yarn",
 			"typescript",
 			"rimraf",
 			"copy",
