@@ -22,7 +22,8 @@
 			"lockhunter",
 			"slack",
 			"winrar",
-			"linkshellextension"
+			"linkshellextension",
+			"kubernetes-cli"
 		],
 		"skipPackages": []
 	},
@@ -35,13 +36,13 @@
 		"packages": [
 			"npm-check-updates",
 			"tslint",
-			"yarn",
 			"typescript",
 			"rimraf",
 			"copy",
 			"gulp",
 			"gulp-cli",
-			"aurelia-cli"
+			"aurelia-cli",
+			"@angular/cli"
 		],
 		"skipPackages": []
 	},
