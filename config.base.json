@@ -42,7 +42,8 @@
 			"gulp",
 			"gulp-cli",
 			"aurelia-cli",
-			"@angular/cli"
+			"@angular/cli",
+			"windows-build-tools"
 		],
 		"skipPackages": []
 	},
