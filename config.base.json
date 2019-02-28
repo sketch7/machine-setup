@@ -10,6 +10,7 @@
 		"packages": [
 			"git",
 			"notepadplusplus",
+			"dotnetcore-sdk",
 			"visualstudiocode",
 			"python2",
 			"gitkraken",
@@ -20,10 +21,13 @@
 			"spotify",
 			"everything",
 			"lockhunter",
-			"slack",
+			"franz",
 			"winrar",
 			"linkshellextension",
-			"kubernetes-cli"
+			"docker-desktop",
+			"kubernetes-cli",
+			"greenshot",
+			"postman"
 		],
 		"skipPackages": []
 	},
@@ -34,9 +38,8 @@
 		"prefix": "install -g",
 		"commandName": "npm",
 		"packages": [
-			"npm-check-updates",
-			"tslint",
 			"typescript",
+			"tslint",
 			"rimraf",
 			"copy",
 			"gulp",
@@ -48,7 +51,7 @@
 		"skipPackages": []
 	},
 	"otherCommands": {
-		"ignore": false,
+		"ignore": true,
 		"install": true,
 		"preCommands": [
 			{

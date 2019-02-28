@@ -11,6 +11,6 @@
 		"ignore": false
 	},
 	"otherCommands": {
-		"ignore": false
+		"ignore": true
 	}
 }
