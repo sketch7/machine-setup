@@ -27,7 +27,9 @@
 			"docker-desktop",
 			"kubernetes-cli",
 			"greenshot",
-			"postman"
+			"postman",
+			"ngrok",
+			"awscli"
 		],
 		"skipPackages": []
 	},
