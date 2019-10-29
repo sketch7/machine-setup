@@ -55,11 +55,7 @@
 	"otherCommands": {
 		"ignore": true,
 		"install": true,
-		"preCommands": [
-			{
-				"dotnet-install": "choco install dotnet4.6 -y"
-			}
-		],
+		"preCommands": [],
 		"skipPreCommands": [],
 		"postCommands": [],
 		"skipPostCommands": []
