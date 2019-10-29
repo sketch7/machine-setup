@@ -4,7 +4,8 @@
 		"ignore": false,
 		"packages": [
 			"dropbox",
-			"vlc"
+			"vlc",
+			"itunes"
 		]
 	},
 	"NodeJs": {
